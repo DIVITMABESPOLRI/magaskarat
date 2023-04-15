@@ -1,10 +1,10 @@
 def show_message(msg):
     if msg == "loc":
-        return "Waiting for User Interaction"
+        return "Menuggu interaksi korban"
     
     elif msg == "mic":
-        return "Waiting to receive victim Voice"
+        return "Menunggu suara rekam korban"
 
     elif msg == "webcam":
-        return "Waiting to receive victim Picture"
+        return "Menunggu mendapatkan gambar korban"
     
