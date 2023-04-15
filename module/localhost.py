@@ -19,7 +19,7 @@ def continue_proc(con_status='',con_path='',con_message=''):
         with open(f"template/{con_path}","w") as clear_file:
                 clear_file.write("")
         
-        return_menu = input(Fore.YELLOW+"\n Do you want to return to menu? > Y/N : ").upper()
+        return_menu = input(Fore.YELLOW+"\n Balik ke menu? > Y/N : ").upper()
         if return_menu == "Y":
             return "YES_EXIT"
 
