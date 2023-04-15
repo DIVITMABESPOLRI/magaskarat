@@ -11,7 +11,7 @@ while True:
 
     try:
 
-        original_menu = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"STORM-BREAKER"+Fore.BLUE+"~"+Fore.WHITE+"@HOME"+Fore.RED+"""]
+        original_menu = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"MAGASKARAT"+Fore.BLUE+"~"+Fore.WHITE+"@JUSTITIA"+Fore.RED+"""]
  └──╼ """+Fore.WHITE+"$ ")
         
         if  original_menu == "0":
@@ -36,4 +36,4 @@ while True:
 
     except KeyboardInterrupt:
         control.kill_php_proc()
-        exit("\n Goodbye :) ")
+        exit("\n HUKUM DIATAS SEGALA - GALANYA ")
